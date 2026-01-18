@@ -1,0 +1,12 @@
+name: ControlBridge
+version: '${project.version}'
+main: com.control.bridge.ControlBridge
+api-version: '1.21'
+commands:
+  drawhead:
+    description: Comando per disegnare teste in chat
+    permission: controlbridge.drawhead
+permissions:
+  controlbridge.drawhead:
+    description: Permette di usare il comando drawhead
+    default: op
