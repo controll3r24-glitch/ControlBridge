@@ -2,9 +2,13 @@ name: ControlBridge
 version: '${project.version}'
 main: com.control.bridge.ControlBridge
 api-version: '1.21'
+author: Controll3r24
+description: Visualizza le teste dei giocatori 8x8 in chat con supporto RGB e PlaceholderAPI.
+softdepend: [PlaceholderAPI, bStats]
 commands:
   drawhead:
     description: Comando per disegnare teste in chat
+    usage: /drawhead <player> <testo>
     permission: controlbridge.drawhead
 permissions:
   controlbridge.drawhead:
